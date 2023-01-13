@@ -85,7 +85,24 @@ a {
   margin: 0 auto;
 }
 
-/* Navbar */
+.click{
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.click:hover{
+  transform: scale(1.1);
+}
+
+.click:active{
+  transform: scale(0.8);
+}
+
+/* 
+
+Navbar
+
+*/
 
 #nav {
   background-color: rgb(242, 210, 181);
@@ -158,7 +175,28 @@ a {
   color: white;
 }
 
-/* Weddings */
+.mail__btn{
+  width: 70px;
+  height: 70px;
+  font-size: 32px;
+  border-radius: 50px;
+  border: none;
+  background-color: #242424;
+  color: white;
+  position: fixed;
+  bottom: 32px;
+  right: 15px;
+}
+
+.btn__link{
+  color: white;
+}
+
+/* 
+
+Weddings
+
+*/
 
 #wedding{
     background-color: rgb(255, 247, 240);
