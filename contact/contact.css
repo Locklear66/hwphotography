@@ -115,6 +115,10 @@ Navbar
     color: black;
     font-family: 'Dancing Script', cursive;
   }
+
+  .nav__link:hover{
+    color: rgb(123, 123, 123);
+  }
   
   .menu__btn{
     background-color: transparent;
