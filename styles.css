@@ -192,7 +192,12 @@ a {
 }
   
 
-/* Header */
+/*
+
+
+ Header
+
+*/
 
 .header__container {
   background-color: rgb(242, 242, 242);
@@ -221,7 +226,11 @@ a {
   border-radius: 12px;
 }
 
-/* Weddings */
+/*
+
+Weddings
+
+*/
 
 .wedding__container {
   background-color: rgb(242, 242, 242);
@@ -244,7 +253,11 @@ a {
   margin-bottom: 12px;
 }
 
-/* Couples */
+/*
+
+Couples 
+
+*/
 
 .couples__container {
   background-color: rgb(242, 242, 242);
@@ -267,7 +280,11 @@ a {
   margin-bottom: 12px;
 }
 
-/* Footer */
+/*
+
+Footer
+
+*/
 
 .footer__para {
   background-color: rgb(242, 242, 242);
@@ -285,7 +302,11 @@ a {
   cursor: hand;
 }
 
-/* Media */
+/* 
+
+Media 
+
+*/
 
 @media(min-width:800px) {
 
@@ -345,6 +366,14 @@ a {
 
 @media(max-width:550px){
   .nav__link{
+    display: none;
+  }
+
+  .mail__btn{
+    display: none;
+  }
+  
+  .btn__link{
     display: none;
   }
 }

@@ -267,6 +267,14 @@ Navbar
   .nav__link{
     display: none;
   }
+
+  .mail__btn{
+    display: none;
+   }
+   
+  .btn__link{
+     display: none;
+   }
 }
 
 @media(min-width:550px){
