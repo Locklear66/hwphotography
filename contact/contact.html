@@ -9,7 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="./contact.js"></script>
     <script src="https://kit.fontawesome.com/dbe21d6795.js" crossorigin="anonymous"></script>
-
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("rJeubM889V0KM5C2W");
+   })();
+</script>
     <title>Contact</title>
 </head>
 <body>
@@ -51,10 +58,10 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <form>      
-                    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                    <input name="email" type="email" class="feedback-input" placeholder=email />
-                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <form onsubmit="contact(event)">      
+                    <input name="user_name" type="text" class="feedback-input" placeholder="Name" />   
+                    <input name="user_email" type="email" class="feedback-input" placeholder=email />
+                    <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
                     <input type="submit" value="SUBMIT"/>
                   </form>
             </div>
