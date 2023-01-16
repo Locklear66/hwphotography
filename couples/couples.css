@@ -222,9 +222,9 @@ Weddings
 .wedding__img-9,
 .wedding__img-10{
     width: 80%;
-    margin: 0 auto;
-    padding: 12px;
+    margin: 12px auto;
     border-radius: 50px;
+    box-shadow: 8px 8px 7px lightgrey
 }
 
 /* Footer */
@@ -263,7 +263,8 @@ Weddings
   .wedding__img-8,
   .wedding__img-9,
   .wedding__img-10{
-    width: 50%;
+    width: 48%;
+    box-shadow: 8px 8px 7px lightgrey
  }
 }
 
