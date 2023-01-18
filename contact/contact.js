@@ -1,21 +1,21 @@
 function openMenu() {
-    document.body.classList += " menu--open"
- }
- 
- function closeMenu() {
-    document.body.classList.remove('menu--open')
- }
+   document.body.classList += " menu--open"
+}
 
- function contact(event){
+function closeMenu() {
+   document.body.classList.remove('menu--open')
+}
+
+function contact(event) {
    event.preventDefault();
    emailjs
       .sendForm(
-         'service_uc6u3wm',
-         'template_bpavk3e',
+         'service_l0u8qrd',
+         'template_1jsfv8z',
          event.target,
-         'rJeubM889V0KM5C2W' 
+         'VtEkEzmiw7x1vGiMo'
 
       ).then(() => {
          console.log('this worked')
       })
- }
+}
