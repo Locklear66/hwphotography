@@ -7,6 +7,7 @@ function closeMenu() {
 }
 
 function contact(event) {
+   event.preventDefault()
    emailjs
       .sendForm(
          'service_l0u8qrd',
@@ -17,4 +18,7 @@ function contact(event) {
       ).then(() => {
          console.log('this worked')
       })
+      setTimeout(function(){
+         location.reload();
+       }, 2000);
 }
