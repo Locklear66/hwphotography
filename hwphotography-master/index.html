@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/dbe21d6795.js" crossorigin="anonymous"></script>
+    
+    <script src="./index.js"></script>
+    <title>HwPhotography</title>
+</head>
+<body>
+    <section id="nav">
+        <div class="row">
+            <div class="nav__container">
+                <p class="nav__title">HW Photography</p>
+                <div class="nav__links"></div>
+                    <a class="nav__link" href="./landing/weddings.html">Weddings</a>
+                    <a class="nav__link" href="./couples/couples.html">Couples</a>
+                    <a class="nav__link" href="./contact/contact.html">Contact</a>
+                    <button class="menu__btn" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                 </div>
+            </div>
+        </div>
+       
+        <div class="menu__backdrop">
+            <button class="menu__btn menu__btn--close"onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul>
+                <li class="menu__list">
+                    <a href="./index.html" class="menu__link">Home</a>
+                </li>
+                <li class="menu__list">
+                    <a href="./landing/weddings.html " class="menu__link">Weddings</a>
+                </li>
+                <li class="menu__list">
+                    <a href="./couples/couples.html" class="menu__link">Couples</a>
+                </li>
+                <li class="menu__list">
+                    <a href="./contact/contact.html" class="menu__link">Contact</a>
+                </li>
+                
+            </ul>
+       </div>
+       <button class="mail__btn"><a class="btn__link" href="./contact/contact.html">
+        <i class="fa-regular fa-envelope click"></i></a>
+       </button>
+    </section>
+    <section id="header">
+        <div class="row">
+            <div class="header__container">
+                <picture class="header__img--wrapper">
+                    <img class="header__img--one" src="https://static.wixstatic.com/media/1f9f8d_75a36c1974ae4b78b7395fb282731c79~mv2_d_2600_1760_s_2.jpg/v1/fill/w_1026,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/HW%20Photography%201%20(4).jpg" alt="">
+                    <img class="header__img--two" src="https://static.wixstatic.com/media/1f9f8d_7d6130a7c67c461692eaa26702213558~mv2_d_2600_1733_s_2.jpg/v1/fill/w_1024,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/HW%20Photography%203%20(43).jpg" alt="">
+                    <img class="header__img--three" src="https://static.wixstatic.com/media/1f9f8d_d94e524659f04a7fa573bf624a3f7e8a~mv2_d_1733_2600_s_2.jpg/v1/fill/w_932,h_1398,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/HW%20Photography-698.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section id="weddings">
+        <div class="row">
+            <div class="wedding__container">
+                <p class="wedding__para"><a href="./landing/weddings.html"> WEDDINGS</a></p>
+                <img src="https://static.wixstatic.com/media/1f9f8d_20eda4c780924c758efec54246c904e3~mv2.jpg/v1/crop/x_143,y_0,w_908,h_833/fill/w_908,h_833,al_c,q_85,enc_auto/_MG_2537_JPG.jpg" alt="" class="wedding__img">
+            </div>
+        </div>
+    </section>
+    <section id="couples">
+        <div class="row">
+            <div class="couples__container">
+                <p class="couples__para"><a href="./couples/couples.html">COUPLES</a></p> 
+                <img class="couples__img" src="https://static.wixstatic.com/media/1f9f8d_1df610eb44d24ffa871e992aa6fb358d~mv2.jpg/v1/fill/w_383,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/_MG_9093_JPG.jpg" alt="">
+                     
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="row">
+            <p class="footer__para">By Heather Wooley of HW Photography
+                <a class="footer__link" href="https://www.facebook.com/HWPhotography05/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a class="footer__link" href="https://www.instagram.com/hwPhotography05" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
