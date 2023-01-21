@@ -90,18 +90,13 @@ a {
 Navbar
 
 */
-
-#nav {
-    background-color: rgb(242, 210, 181);
-    border-radius: 12px;
-  }
   
   .nav__container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 12px 12px 12px 12px;
-  
+    background-color: #f5f5f5;
   }
   
   .nav__title {
@@ -175,7 +170,7 @@ Navbar
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background:rgb(255, 255, 254); }
+body { background: #f5f5f5; }
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {

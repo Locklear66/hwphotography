@@ -104,17 +104,12 @@ Navbar
 
 */
 
-#nav {
-  background-color: rgb(242, 210, 181);
-  border-radius: 12px;
-}
-
 .nav__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 12px 12px 12px 12px;
-
+  background-color: #f5f5f5;
 }
 
 .nav__title {
@@ -189,7 +184,7 @@ Navbar
   color: white;
   position: fixed;
   bottom: 32px;
-  right: 15px;
+  right: 40px;
 }
 
 .btn__link{
@@ -202,13 +197,10 @@ Weddings
 
 */
 
-#wedding{
-    background-color: rgb(255, 247, 240);
-}
-
-.weddings__img--container{
+.wedding__img--wrapper{
   display: flex;
   flex-wrap: wrap;
+  background-color: #f5f5f5;
 }
 
 .wedding__img-1,
@@ -221,17 +213,15 @@ Weddings
 .wedding__img-8,
 .wedding__img-9,
 .wedding__img-10{
-    width: 80%;
+    width: 70%;
     margin: 12px auto;
-    border-radius: 50px;
     box-shadow: 8px 8px 7px lightgrey
 }
 
 /* Footer */
 
 .footer__para {
-    background-color: rgb(255, 247, 240);
-    border-radius: 12px;
+    background-color: #f5f5f5;
     font-size: small;
     text-align: center;
     padding: 1.5rem;

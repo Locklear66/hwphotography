@@ -101,17 +101,13 @@ a {
 
 /* Nav Bar */
 
-#nav {
-  background-color: rgb(242, 210, 181);
-  border-radius: 12px;
-}
 
 .nav__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 12px 12px 12px 12px;
-
+  background-color: #f5f5f5;
 }
 
 .nav__title {
@@ -200,7 +196,7 @@ a {
 */
 
 .header__container {
-  background-color: rgb(242, 242, 242);
+  background-color: #f5f5f5;
 }
 
 .header__img--wrapper {
@@ -214,7 +210,6 @@ a {
   height: 80%;
   margin: 0 auto;
   margin-top: 12px;
-  border-radius: 12px;
   box-shadow: 8px 8px 7px lightgrey
 }
 
@@ -224,7 +219,6 @@ a {
   margin: 0 auto;
   margin-top: 12px;
   margin-bottom: 12px;
-  border-radius: 12px;
   box-shadow: 8px 8px 7px lightgrey
 }
 
@@ -235,7 +229,7 @@ Weddings
 */
 
 .wedding__container {
-  background-color: rgb(242, 242, 242);
+  background-color: #f5f5f5;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -251,7 +245,6 @@ Weddings
 .wedding__img {
   width: 80%;
   height: 80%;
-  border-radius: 12px;
   margin-bottom: 12px;
   box-shadow: 8px 8px 7px lightgrey
 }
@@ -263,7 +256,7 @@ Couples
 */
 
 .couples__container {
-  background-color: rgb(242, 242, 242);
+  background-color: #f5f5f5;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -279,7 +272,6 @@ Couples
 .couples__img {
   width: 80%;
   height: 80%;
-  border-radius: 12px;
   margin-bottom: 12px;
   box-shadow: 8px 8px 7px lightgrey
 }
@@ -291,7 +283,7 @@ Footer
 */
 
 .footer__para {
-  background-color: rgb(242, 242, 242);
+  background-color: #f5f5f5;
   font-size: small;
   text-align: center;
   padding: 1.5rem;
